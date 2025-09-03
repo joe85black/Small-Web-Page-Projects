@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <script src="https://kit.fontawesome.com/e6384690aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav id="navbar" class="nav">
+    <ul class="navlist">
+      <li><a href="#welcome-section">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contactme">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <section id="welcome-section">
+  <div class="welcome-header">
+    <h1>Welcome, I am Joe!</h1>
+    <h3>Your One Stop Shop for Tech Support!!</h3>
+  </div>
+  <div class="paragraph-container">
+    <p class="paragraph paragraph1">
+      Being an IT support specialist with a focus on security, networking, web design, and business management means wearing multiple hats to ensure a company’s technology systems are secure, efficient, and aligned with business goals. On a typical day, I might troubleshoot a connectivity issue in the network infrastructure, respond to a potential phishing threat, assist a colleague with login problems, or analyze data flows to optimize performance across departments. My role goes beyond solving technical problems — it’s about proactively creating systems that minimize risk and maximize efficiency.
+    </p>
+    <p class="paragraph paragraph2">
+      With a strong foundation in cybersecurity, I monitor systems for vulnerabilities, implement access controls, and help train employees on best practices to prevent breaches. I’m also responsible for ensuring that our firewalls, antivirus software, and encryption protocols are always up-to-date and compliant with relevant regulations. Networking is another key pillar of my work; I configure routers, switches, and VPNs, maintain LAN/WAN environments, and ensure seamless connectivity between devices and remote locations, which is especially vital in hybrid work environments.
+    </p>
+    <p class="paragraph paragraph3">
+      In addition to maintaining infrastructure, I design and manage company websites and web applications, ensuring they are user-friendly, responsive, and secure. I often collaborate with marketing and product teams to make sure our digital presence supports business goals while maintaining a solid technical backend. My understanding of business management from an IT standpoint allows me to align tech strategies with business objectives, balancing budgets, improving workflows, and evaluating new software tools that can drive growth. In short, I bridge the gap between technology and business — keeping systems running while helping the organization thrive in a digital world.
+    </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="project-header">Website Projects</h2>
+  <div class="portfolio-grid">
+    <a href="https://codepen.io/joe85black/full/Eaaaygo" alt="Camper Cafe" class="project-tile project"/>
+  <img src="https://raw.githubusercontent.com/joe85black/WebImages/01fac62060d755120726214d503cf0155130679c/Screenshot%202025-04-17%20181552.png" alt="Camper Cafe" class="project-image">
+  <p class="project-title"> <span class="code"><</span> Camper Cafe <span class="code">/></span> </p>
+    </a>
+
+    <a href="https://codepen.io/joe85black/full/JoooKZm" alt="Color Markers" class="project-tile project"/>
+  <img src="https://raw.githubusercontent.com/joe85black/WebImages/60de10d3b7265a65cbf14a7f139a5804efc2877d/colormarkers.png" alt="Color Markers" class="project-image">
+  <p class="project-title"> <span class="code"><</span>Color Markers<span class="code">/></span> </p>
+    </a>
+
+    <a href="https://codepen.io/joe85black/full/EaaaypR" alt="Rothko Painting" class="project-tile project"/>
+  <img src="https://raw.githubusercontent.com/joe85black/WebImages/ecdf86b98eaefb336b81cf30dc4b08f02a8be70c/rothkopainting.png" alt="Rothko Painting" class="project-image">
+  <p class="project-title"> <span class="code"><</span>Rothko Painting<span class="code">/></span> </p>
+    </a>
+
+    <a href="https://codepen.io/joe85black/full/QwwwEBd" alt="Registration Form" class="project-tile project"/>
+  <img src="https://raw.githubusercontent.com/joe85black/WebImages/f877223a48dc3c511eada09b008685a2c8301092/Registration%20Form.png" alt="Registration Form" class="project-image">
+  <p class="project-title"> <span class="code"><</span>Registration Form<span class="code">/></span> </p>
+    </a>
+
+    <a href="https://codepen.io/joe85black/full/KwwwMxm" alt="Cat Photo Gallery" class="project-tile project"/>
+  <img src="https://raw.githubusercontent.com/joe85black/WebImages/f877223a48dc3c511eada09b008685a2c8301092/Cat%20Photo%20Gallery.png" alt="Cat Gallery" class="project-image">
+  <p class="project-title"> <span class="code"><</span>Cat Photo Gallery<span class="code">/></span> </p>
+    </a>
+
+    <a href="https://codepen.io/joe85black/full/emmmzLV" alt="Nutrition Label" class="project-tile project"/>
+  <img src="https://raw.githubusercontent.com/joe85black/WebImages/f877223a48dc3c511eada09b008685a2c8301092/Nutrition%20Label.png" alt="Nutrition Label" class="project-image">
+  <p class="project-title"> <span class="code"><</span>Nutrition Label<span class="code">/></span> </p>
+    </a>
+
+    <a href="https://codepen.io/joe85black/full/qEEENML" alt="Accessibility Quiz" class="project-tile project"/>
+  <img src="https://raw.githubusercontent.com/joe85black/WebImages/f877223a48dc3c511eada09b008685a2c8301092/Accessibility%20Quiz.png" alt="Accessibility Quiz" class="project-image">
+  <p class="project-title"> <span class="code"><</span>Accessibility Quiz<span class="code">/></span> </p>
+    </a>
+
+    <a href="https://codepen.io/joe85black/full/vEEEKVo" alt="Tribute Page" class="project-tile project"/>
+  <img src="https://raw.githubusercontent.com/joe85black/WebImages/f877223a48dc3c511eada09b008685a2c8301092/Tribute%20Page.png" alt="Tribute Page" class="project-image">
+  <p class="project-title"> <span class="code"><</span>Tribute Page<span class="code">/></span> </p>
+    </a>
+
+    <a href="https://codepen.io/joe85black/full/WbbbxYR" alt="Balance Sheet" class="project-tile project"/>
+  <img src="https://raw.githubusercontent.com/joe85black/WebImages/f877223a48dc3c511eada09b008685a2c8301092/Balance%20Sheet.png" alt="Balance Sheet" class="project-image">
+  <p class="project-title"> <span class="code"><</span>Balance Sheet<span class="code">/></span> </p>
+    </a>
+    
+    <a href="https://codepen.io/joe85black/full/VYYYjVO" alt="Piano" class="project-tile project"/>
+  <img src="https://raw.githubusercontent.com/joe85black/WebImages/f877223a48dc3c511eada09b008685a2c8301092/Piano.png" alt="Piano" class="project-image">
+  <p class="project-title"> <span class="code"><</span>Piano<span class="code">/></span> </p>
+    </a>
+
+    <a href="https://codepen.io/joe85black/full/QwwwEzp" alt="Technical Document" class="project-tile project"/>
+  <img src="https://raw.github.com/joe85black/WebImages/f877223a48dc3c511eada09b008685a2c8301092/Technical%20Document.png" alt="Technical Document" class="project-image">
+    <p class="project-title"> <span class="code"><</span>Technical Document<span class="code">/></span> </p>
+    </a>
+
+    <a href="https://codepen.io/joe85black/full/MYYYeZO" alt="City Skyline" class="project-tile project"/>
+  <img src="https://raw.github.com/joe85black/WebImages/f877223a48dc3c511eada09b008685a2c8301092/City%20Skyline.png" alt="City Skyline" class="project-image">
+  <p class="project-title"> <span class="code"><</span>City Skyline<span class="code">/></span> </p>
+    </a>
+
+    <a href="https://codepen.io/joe85black/full/EaaayGe" alt="Building A Magazine" class="project-tile project"/>
+  <img src="https://raw.github.com/joe85black/WebImages/f877223a48dc3c511eada09b008685a2c8301092/Building%20A%20Magazine.png" alt="Building a Magazine" class="project-image">
+  <p class="project-title"> <span class="code"><</span>Building A Magazine<span class="code">/></span> </p>
+    </a>
+
+    <a href="https://codepen.io/joe85black/full/YPPPWdm" alt="Product Landing Page" class="project-tile project"/>
+  <img src="https://raw.github.com/joe85black/WebImages/f877223a48dc3c511eada09b008685a2c8301092/Product%20Landing%20Page.png" alt="Product Landing Page" class="project-image">
+  <p class="project-title"> <span class="code"><</span>Product Landing Page<span class="code">/></span> </p>
+    </a>
+  
+    <a href="https://codepen.io/joe85black/full/NPPProd" alt="Penguin" class="project-tile project"/>
+  <img src="https://raw.github.com/joe85black/WebImages/f877223a48dc3c511eada09b008685a2c8301092/Penguin.png" alt="Penguin" class="project-image">
+  <p class="project-title"> <span class="code"><</span>Penguin<span class="code">/></span> </p>
+    </a>  
+  </div>
+  </section>
+
+  <section id="contactme">
+    <div class="contact-text-container">
+      <h2 class="contact-header">Looking for a Partner?</h2>
+      <h3 class="contact-header2">Let's Work Together!</h3>
+    </div>
+    <div class="contact-links-container">
+      <a href="https://calendar.google.com/calendar/u/0/r" target="_blank" class="calendar-link"> <i class="fa-solid fa-calendar" "></i></a>
+
+      <a href="tel:+19193950285" target="_blank" class="cellular-link"><i class="fa-solid fa-mobile-screen"></i></a>
+
+      <a href="https://x.com/" target="_blank" class="twitter-link"><i class="fa-brands fa-square-twitter"></i></a>
+
+      <a href="mailto:joe85black@gmail.com" target="_blank" class="email-link"><i class="fa-solid fa-envelope"></i></a>
+
+      <a id="profile-link" href="https://github.com/" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
+
+    </div>
+  </section>
+</body>
+
+<footer>
+  <div class="footer-info">
+       <p class="copyright">
+         <span>
+         <span class="left">
+        <i class="fa-solid fa-globe"></i>
+        <i class="fa-solid fa-wifi"></i>
+        <i class="fa-solid fa-laptop"></i>
+        </span>
+         &copy; Created for IT4Me LLC
+         <span class="right">
+        <i class="fa-solid fa-laptop"></i>
+        <i class="fa-solid fa-wifi"></i>
+        <i class="fa-solid fa-globe"></i>
+        </span>
+        </span>
+        </p>
+  </div>
+</footer>
+</html>
