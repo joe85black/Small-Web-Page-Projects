@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Linux Commands</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Linux commands for beginners" />
+  </head>
+
+  <body>
+  <div class="nav-container">
+      <nav id="navbar">
+    <header class="nav-header">Basic Linux Commands</header>
+   
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#File_and_Directory_Management">File and Directory Management</a>
+    <a class="nav-link" href="#File_Viewing_and_Editing">File Viewing and Editing</a>
+    <a class="nav-link" href="#File_Permissions_and_Ownership">File Permissions and Ownership</a>
+    <a class="nav-link" href="#System_Information_and_Monitoring">System Information and Monitoring</a>
+    <a class="nav-link" href="#Process_Management">Process Management</a>
+    <a class="nav-link" href="#Networking_and_Internet">Networking and Internet</a>
+    <a class="nav-link" href="#Continuing_Education">Continuing Education</a>
+      </nav>
+  </div>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header  class="main-doc-header">Introduction</header>
+        <p class="introduction-text indented">Linux is a powerful, open-source operating system that forms the backbone of many systems around the world—from smartphones and servers to embedded devices and cloud infrastructure. Known for its stability, security, and flexibility, Linux is especially popular among developers, system administrators, and IT professionals. It provides a command-line interface (CLI) that allows users to interact directly with the system, giving them granular control over processes, files, and system resources.</p>
+
+ <p class="indented"> Learning the basics of Linux is essential for anyone pursuing a career in technology. It starts with understanding the file system structure, using commands to navigate directories, managing files, handling user permissions, and monitoring system performance. With a solid grasp of fundamental Linux commands and concepts, users can perform tasks more efficiently, automate workflows, and troubleshoot problems with greater confidence.</p>
+      </section>
+      <section class="main-section" id="File_and_Directory_Management">
+        <header id="File_and_Directory_Management" class="main-doc-header">File and Directory Management</header>
+        <p class="File_and_Directory_Management-text indented">File and directory management commands in Linux allow users to navigate the file system, organize data, and perform essential file operations. Commands like ls display the contents of a directory, while cd is used to move between directories. To create new directories, users rely on <code>mkdir</code>, and to remove them, <code>rmdir</code> or <code>rm -r</code> is used. Copying and moving files is done with <code>cp</code> and <code>mv</code>, respectively, and unwanted files can be deleted using <code>rm</code>. These commands are fundamental for maintaining a well-organized system and are often the first tools learned when working in the Linux environment.</p>
+        <ul>
+          <li><code>ls</code> - List directory contents</li>
+          <li><code>cd</code> - Change directory</li>
+          <li><code>mkdir</code> - Create directory</li>
+          <li><code>rm</code>, <code>mv</code>, <code>cp</code> - Remove, move, copy files</li>
+        </ul>
+
+
+      </section>
+      <section class="main-section" id="File_Viewing_and_Editing">
+        <header  class="main-doc-header">File Viewing and Editing</header>
+        <p class="File_Viewing_and_Editing-text indented">Linux provides several tools for viewing and editing text files directly from the command line. Commands like <code>cat</code> display the entire contents of a file, while <code>less</code> and <code>more</code> allow users to scroll through large files one page at a time. For editing files, command-line text editors such as <code>nano</code> and <code>vim</code> are widely used—<code>nano</code> for its simplicity and <code>vim</code> for its power and advanced features. These commands are crucial for checking configuration files, editing scripts, and viewing logs quickly without needing a graphical interface.</p>
+         <ul>
+          <li><code>cat</code> - Show file content</li>
+          <li><code>less</code>, <code>more</code> - Paginated viewing</li>
+          <li><code>nano</code>, <code>vim</code>, <code>gedit</code> - Text editors</li>
+        </ul>
+
+      </section>
+      <section class="main-section" id="File_Permissions_and_Ownership">
+        <header class="main-doc-header">File Permissions and Ownership</header>
+        <p class="File_Permissions_and_Ownership-text indented">Managing file permissions and ownership is essential for securing a Linux system. The <code>chmod</code> command changes file and directory permissions, determining who can read, write, or execute a file. The <code>chown</code> command alters the ownership of files and directories, assigning them to a specific user or group. Understanding how to use these tools helps prevent unauthorized access and maintain system integrity. Permissions are often represented using symbolic (<code>rwx</code>) or numeric (<code>755</code>) notation, both of which are essential to master.</p>
+         <ul>
+          <li><code>chmod</code> - Change permisions</li>
+          <li><code>chown</code> - Change Ownership</li>
+          <li><code>umask</code> - Default permission settings</li>
+        </ul>
+      </section>
+      <section class="main-section" id="System_Information_and_Monitoring" >
+        <header class="main-doc-header">System Information and Monitoring</header>
+        <p class="System_Information_and_Monitoring-text indented">To keep a Linux system healthy and responsive, users rely on commands that monitor system status and resource usage. Tools like <code>top</code> and <code>htop</code> display running processes and real-time performance metrics. Disk usage can be checked with <code>df</code> (disk free space) and <code>du</code> (disk usage per file or directory), while <code>free</code> shows memory usage. <code>uptime</code> provides information about how long the system has been running. These commands are vital for diagnosing issues, identifying performance bottlenecks, and planning resource allocation.</p>
+        <ul>
+          <li><code>top</code>, <code>htop</code> - Real-time system monitor</li>
+          <li><code>df</code>, <code>du</code> - Disk Space</li>
+          <li><code>free</code>, <code>uptime</code> - Memory and system status</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Process_Management">
+        <header class="main-doc-header">Process Management</header>
+        <p class="Process_Management-text indented">Linux gives users control over processes—the active tasks and applications running on the system. The <code>ps</code> command lists current processes, often combined with flags to show details like process ID and CPU usage. To terminate processes, <code>kill</code> is used with a specific process ID, while <code>killall</code> targets processes by name. Background and foreground task control is handled with <code>bg</code>, <code>fg</code>, and <code>jobs</code>, allowing users to pause, resume, or manage multiple tasks efficiently. These tools are key for multitasking and troubleshooting unresponsive applications.</p>
+        <ul>
+          <li><code>ps</code> - List processes</li>
+          <li><code>kill</code>, <code>killall</code> - Stop processes</li>
+          <li><code>bg</code>, <code>fg</code>, <code>jobs</code> - Manage background/foreground tasks</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Networking_and_Internet">
+        <header class="main-doc-header">Networking and Internet</header>
+        <p class="Networking_and_Internet-text indented">Linux includes robust tools for network configuration, troubleshooting, and data transfer. The <code>ping</code> command checks connectivity to other systems, while <code>ifconfig</code> or <code>ip</code> provides details about network interfaces. To test or interact with online resources, <code>curl</code> and <code>wget</code> are used to download files or fetch data from URLs. These networking tools are crucial for diagnosing connectivity issues, managing network settings, and working with APIs or remote servers in both personal and professional environments.</p>
+        <ul>
+          <li><code>ping</code> - Test connectivity</li>
+          <li><code>ifconfig</code> / <code>ip</code> - Show network interfaces</li>
+          <li><code>curl</code>, <code>wget</code> - Download from the web</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Continuing_Education">
+        <header class="main-doc-header">Continuing Education</header>
+        <p class="Continuing_Education-text indented">Continuing education in Linux offers many opportunities for deepening knowledge and advancing career prospects in IT. Beginners can start with free online tutorials, YouTube channels, or interactive platforms like Codecademy, LinuxCommand.org, and The Linux Foundation’s training portal. For a more structured approach, many learners turn to Massive Open Online Courses (MOOCs) such as those on Coursera, edX, or Udemy, which offer beginner to advanced training in Linux system administration, shell scripting, and security. These resources are ideal for building hands-on skills at your own pace.</p>
+        <p class="Continuing_Education-text indented">For those seeking credentials, Linux certifications can add credibility and open job opportunities. Popular options include CompTIA Linux+, LPIC-1 (Linux Professional Institute Certification), and Red Hat Certified System Administrator (RHCSA). These certifications validate a deeper understanding of Linux environments, including managing servers, automating tasks, and securing systems. Whether you're aiming to become a system administrator, DevOps engineer, or cybersecurity specialist, continuing education in Linux is a smart investment that can keep your skills competitive and current.</p>
+      </section>
+
+     </main> 
+  </body>
+
+  <footer>
+  </footer>
+</html>
