@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta  name="description" content="Mariana Baptistella Vedovello's Biography"/>
+    <title id="title">Mariana Baptistella Vedovello's Biography</title>
+  </head>
+  <body>
+    <header  id="header">
+      <h1 class="name-title">Mariana Baptistella Vedovello</h1>
+    </header>
+    <main id="main">
+      <figure id="img-div">
+        <img id="image" src="https://media.licdn.com/dms/image/v2/C4D03AQGn61OIbJwfow/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1636661064537?e=1747872000&v=beta&t=7KnjHGozjv7ARDiHNRrAHLbLBRV2BA5vPPgcyaT-5CE" />
+        <figcaption id="img-caption">Mariana Baptistella Vedovello , CEO Yes Visa LLC</figcaption>
+      </figure>
+      <p id="tribute-info">An amazing woman born in Itatiba, São Paulo in Brazil in July of 1987 has become a hero to many in her recent work with immigration. Unsurprisingly to many of her followers her story involves a lot more than helping people through the U.S. immigration service.</p>
+
+      <ul class="timeline">
+        <li>Born July 22nd 1987</li>
+        <li>Goes to college and graduates with a degree in Biology</li>
+        <li>Teaches Biology to a predominantly underpriviledged classroom</li>
+        <li>Gets a job in government, dealing with environmental concerns.</li>
+        <li>Leaves a gauranteed job to explore the U.S. as an Au Pair</li>
+        <li>After successfully completing the Au Pair programs she starts her Masters' at North Carolina State University with the goal of using this knowledge to help the indigenous and underpriviledged in her home country</li>
+        <li>Close to the completion of her education she meets some incredibly lucky guy who somehow is able to convince her to love him...we are still getting the details on that.</li>
+        <li>She finishes her Masters', and begins working on a sustainable farm.</li>
+        <li>In 2020, she started her company Yes Visa LLC, and has had increasing success every year. She also has several employees and dontates every month to charity</li>
+        <li>She is soon to start on a new journey to bring some economic consistency to as many as she can in Brazil</li>
+      </ul>
+
+      <p class="contact-info">If you would like to follow her or learn more about her company you can visit her site, <a href="www.yesvisaconsultoria.com">www.yesvisaconsultoria.com</a>, or follow her on <a href="www.instagram.com" id="tribute-link" target="_blank">instagram</a>.</p>
+      
+    <form action="www.yesvisaconsultoria.com" method="post" id="form">       
+        <section>
+          <label>Please tell us, who is one of your female heroes and why?</label>
+          <textarea rows="10" cols="40"> </textarea>
+          <button type="Submit">Submit</button>
+        </section>
+    </form>  
+
+    </main>
+
+    <footer>
+      
+      <address>
+        Yes Visa LLC </br>
+        Provo, UT </br>
+        United States </br>
+        </address>
+    </footer>
+  </body>
+</html>
