@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Average Joe Computing</title>
+  </head>
+  <body>
+    <h1 id="title">Average Joe Computing</h1>
+    <p id="description">Help keep our work above average!</p>
+    <form id="survey-form">
+    <fieldset>
+    <label for="name" id="name-label">Name:<input id="name" name="name" type="text" placeholder="Joe Black" required></label>
+    <label for="email" id="email-label">Email:<input id="email" name="email" type="email" placeholder="joeblack@gmail.com" required></label>
+    <label for="number" id="number-label">Age:<input id="number" name="age" type="number" min="18" max="100" placeholder="38"></label>
+    </fieldset>
+    <fieldset>
+      <legend>Which service did we provide to you?</legend>
+      <label for="it-support"><input id="it-support" type="radio" name="service" value="it-support" checked>IT Supoort</label>
+      <label for="web-design"><input id="web-design" type="radio" name="service" value="web-design">Web Design</label>
+      <label for="web-support"><input id="web-support" type="radio" name="service" value="web-support">Web Support</label>
+    </fieldset>
+    <fieldset>
+    <label for="dropdown">How likely would you refer us? <select id="dropdown" name="dropdown">
+      <option value="">Select an Option</option>
+      <option value="Very-Likely!">Very Likely!</option>
+      <option value="Likely">Likely</option>
+      <option value="Unlikely">Unlikely</option>
+      <option value="Very-Unlikely!">Very Unlikely!</option>
+    </select>
+    </label>
+    </fieldset>
+    
+    <fieldset>
+      <legend>What areas can we get better?</legend>
+      
+      <label>
+        <input name="improvements" value="friendliness" type="checkbox"  >Friendliness</label>
+
+      <label><input name="improvements" value="cummunications" type="checkbox">Communication</label>
+
+      <label><input name="improvements"value="knowledge" type="checkbox">Knowledge</label>
+
+      <label><input name="improvements" value="efficiency" type="checkbox">Efficiency</label>
+      
+      <label><input name="improvements" value="cost" type="checkbox">Cost</label>
+
+      <label><input name="improvements" value="explanations" type="checkbox">Explanations</label>
+
+      <label><input name="improvements" value="customer-experience" type="checkbox">Customer Experience</label>
+
+      <label><input name="improvements" value="become-better-looking" type="checkbox">Become Better Looking</label>     
+     </label>
+     
+     <label for="further-explanation">Please provide further information on any categories selected above:
+          <textarea id="further-explanation" name="further-explanation" rows="3" cols="30" placeholder="I wish you guys were better looking..."></textarea>
+     </label>
+    </fieldset>
+    
+    <input type="submit" id="submit" value="Submit" />
+    </form>
+  </body>
