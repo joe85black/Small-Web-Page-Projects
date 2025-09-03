@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>IT4ME Home Page</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  
+  </head>
+
+  <body>
+    <header id="header">
+      <h1 class="header1"><img src="https://t4.ftcdn.net/jpg/01/63/91/51/360_F_163915196_rpszYhZQ3iGWlh32rxFIEQs3iTROCmKu.jpg" alt="computer" class="computer-img-left" id="header-img">   IT 4 ME   <img src="https://t4.ftcdn.net/jpg/01/63/91/51/360_F_163915196_rpszYhZQ3iGWlh32rxFIEQs3iTROCmKu.jpg" alt="computer" class="computer-img-right"></h1>
+      <h2 class="header2">Personalized IT Support for Entrepreneurs</h2>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#who-we-are">Who We Are</a>
+        <a class="nav-link" href="#why-you-are-here">Why You Are Here</a>
+        <a class="nav-link" href="#how-we-can-help">How We Can Help</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </nav>
+    </header>
+    <main>
+      <section id="who-we-are">
+        <div class="column-text">
+        <p class="first-paragraph indent">My name is Joe, I have been around technology my whole life. I have always been fascinated with the way things work and how to make them work again once they stop. I am an IT support specialist with a wide range of knowledge, coming from both life experience and education. My goal is to make your life easier through technology. </p>
+        <p class="second-paragraph indent">I have a small team dedicated to our mission of simplifying the life of entrepeneurs.</p>
+        </div>
+        <div class="img-wrapper">
+          <img src="https://t3.ftcdn.net/jpg/04/66/66/26/360_F_466662696_VfUc1QvvESzJu3HK3ALaQaTiCf4k1v88.jpg" alt="Flow Diagram" class="who-img"/>
+        </div>
+      </section>
+
+      <section id="why-you-are-here">
+        <hr>
+        <p>I know why you are here. I started seeing it years ago when my wife started her first company. Endless stress, a million things to do and not enough time to do them.</p>
+        <p>Originally she had hired a company to the IT for her, at this point I already was working 60 hours a week for another company.</p>
+        <p>It came to a breaking point. Basic functions were not working, her different software subscriptions were unable to communicate and she was having to do most things manually.</p>
+        <p>We realized that there was a real need for good IT work for entrepeneurs</p>
+        <hr>
+      </section>
+
+      <section id="how-we-can-help">
+     
+        <h2>How we can help</h2>
+       <div class="ideas"> 
+        <h3>Create/Maintain cloud storage</h3>
+        <h3>Create/Maintain CRM platform</h3>
+        <h3>Create/Maintain Webpage</h3>
+        <h3>Create/Maintain Webforms</h3>
+        <h3>Automate Tasks</h3>
+        <h3>Integrate Software</h3>
+        <h3>Troubleshoot IT issues</h3>
+        <h3>Research Electronics</h3>
+        <h3>Research Software</h3>
+        </div>
+
+        <div class="video-wrap">
+        <video id="video" controls >
+          <source src="https://www.youtube.com/watch?v=7RBwji7qoDM"  type="MP4" />
+        </video>
+        </div>
+        
+      </section>
+
+      <section id="pricing">
+        <h2>Common Services</h2>
+        <h3>Further services available upon request</h3>
+        <div="pricing-table">
+          <table>
+              <thead>
+                <tr>
+                  <th>Service</th>
+                  <th>Price</th>
+                  <th>What is Included</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Create/Maintain Web Storage</td>
+                  <td>$50 per month</td>
+                  <td>Create cloud with desired services and software. Keep up to date.</td>
+                </tr>
+                <tr>
+                  <td>Create/Maintain CRM platform</td>
+                  <td>$500 downpayment, $40 per month</td>
+                  <td>Transfer data to platform, Sync other software to platform, setup pipelines and workflows, </td>
+                </tr>
+                <tr>
+                  <td>Create/Maintain Webpage</td>
+                  <td>$1000 downpayment, $25 per month</td>
+                  <td>Create webpage and keep up to date. Any significant changes will require additional payment.</td>
+                </tr>
+                <tr>
+                  <td>Create/Maintain Webforms</td>
+                  <td>$50-$300 per form, minor edits free</td>
+                  <td>Create and maintain webforms</td>
+                </tr>
+              </tbody>
+          </table>
+        </div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
+          <input id="submit" type="submit" value="Get Started" class="btn">
+         </form>
+      </section>
+    </main>
+  </body>
+
+  <footer>
+
+  </footer>
+</html>
