@@ -1,0 +1,224 @@
+*{
+  
+  
+}
+
+html{
+  box-sizing: border-box;
+  background-color: rgb(193, 201, 191);
+}
+
+.nav{
+  display: flex;
+  position:fixed;
+  justify-content: flex-end;
+  top: 0;
+  left: 0;
+  height: 5rem;
+  width: 100%;
+  background-color: rgb(101, 101, 156);
+  margin:0;
+}
+
+.navlist{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navlist a{
+  color: rgb(219, 226, 250);
+  text-decoration: none;
+  font-size:1.2rem;
+  margin-right: 2rem;
+
+}
+
+.navlist a:hover{
+  padding: 1.9rem 2.3rem;
+  background-color: rgb(193, 201, 191);
+}
+
+#welcome-section{
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+
+.welcome-header{
+  text-align: center;
+}
+
+.welcome-header h1{
+  font-size: 3rem;
+  color: rgb(236, 251, 236);
+}
+
+.welcome-header h3{
+  font-size: 2rem;
+  margin-top: -2rem;
+  color: rgb(68, 83, 54);
+  
+}
+
+.paragraph-container{
+  display: flex;
+  justify-content: evenly-spaced;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-bottom: 7rem;
+}
+ .paragraph{
+   padding: 1.5rem;
+ }
+
+ .project-header{
+   display: flex;
+   justify-content: center;
+   font-size: 2.3rem;
+   word-spacing: .7rem;
+   background-color: rgb(236, 251, 236);
+   padding: 1rem;
+   margin-bottom:0;
+  
+ }
+
+ .portfolio-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: rgb(68, 83, 54);
+    grid-gap: 7rem 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    padding: 6rem;
+}
+
+ .project-image{
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-top-left-radius: .7rem;
+    border-top-right-radius: .7rem;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+.project-tile {
+  text-decoration: none;
+}
+
+.project-tile:hover  .code {
+  color:rgb(246, 192, 106);
+}
+
+.project-title{
+  display: flex;
+  color: white;
+  background-color: rgb(33, 44, 33);
+  justify-content: center;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  padding: 2rem 0.5rem;
+  border-bottom-left-radius: .7rem;
+  border-bottom-right-radius: .7rem;
+  }
+
+.code{
+    color: transparent;
+    margin: 0 1rem;
+  }
+
+
+#contactme{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15rem 0;
+  background-color: rgb(236, 251, 236);
+  border-radius: 5px;
+  margin: 0;
+  
+}
+
+.contact-text-container{
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 1rem;
+  
+}
+
+.contact-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.2rem;
+  color: rgb(68, 83, 54);
+}
+
+.contact-header2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+  color: rgb(68, 83, 54);
+}
+
+.contact-links-container{
+  display:flex;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+  background-color: rgb(68, 83, 54);
+  padding: 1rem;
+}
+
+.contact-links-container i{
+  font-size: 3rem;
+  
+}
+
+.contact-links-container a{
+  text-decoration: none;
+  color:rgb(236, 251, 236);
+  
+}
+
+.contact-links-container a:hover{
+  padding: 1rem;
+  background-color:  rgb(101, 101, 156);
+  border-radius: 5px;
+}
+
+.footer-info{
+  margin: 0;
+  background-color: rgb(101, 101, 156);
+  padding:.4rem;
+}
+
+.footer-info p{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  color: rgb(219, 226, 250);
+}
+
+.left{
+  margin-right: 1rem;
+  word-spacing: 1rem;
+}
+
+.right{ 
+  margin-left: 1rem;
+  word-spacing: 1rem;
+}
+
+@media (min-width: 1250px){
+.img-wrapper{
+display: flex;
+justify-content: center;
+}
