@@ -9,11 +9,13 @@
     <h1 id="title">Average Joe Computing</h1>
     <p id="description">Help keep our work above average!</p>
     <form id="survey-form">
+    <!-- Contact info -->
     <fieldset>
     <label for="name" id="name-label">Name:<input id="name" name="name" type="text" placeholder="Joe Black" required></label>
     <label for="email" id="email-label">Email:<input id="email" name="email" type="email" placeholder="joeblack@gmail.com" required></label>
     <label for="number" id="number-label">Age:<input id="number" name="age" type="number" min="18" max="100" placeholder="38"></label>
     </fieldset>
+    <!-- Which service was provided (single choice) -->
     <fieldset>
       <legend>Which service did we provide to you?</legend>
       <label for="it-support"><input id="it-support" type="radio" name="service" value="it-support" checked>IT Supoort</label>
@@ -31,6 +33,7 @@
     </label>
     </fieldset>
     
+    <!-- Multi-select checkboxes for areas to improve, plus a free-text follow-up -->
     <fieldset>
       <legend>What areas can we get better?</legend>
       
