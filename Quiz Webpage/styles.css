@@ -128,6 +128,8 @@ h3 {
   font-size: 1.375rem;
 }
 
+/* Auto-numbers each question ("Question #1", "Question #2", ...)
+   using the visible digit already inside the h3 */
 h3::before {
   content: "Question #";
 }
@@ -168,6 +170,7 @@ address {
   padding: 0.3em;
 }
 
+/* Visually hides content while keeping it available to screen readers */
 .sr-only {
   position: absolute;
   width: 1px;
