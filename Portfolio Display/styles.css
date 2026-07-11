@@ -8,6 +8,7 @@ html{
   background-color: rgb(193, 201, 191);
 }
 
+/* Fixed navbar pinned to the top of the viewport */
 .nav{
   display: flex;
   position:fixed;
@@ -82,6 +83,8 @@ html{
   
  }
 
+ /* Responsive grid of project tiles: auto-fits as many columns as fit,
+    each at least 320px wide */
  .portfolio-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -126,6 +129,7 @@ html{
   border-bottom-right-radius: .7rem;
   }
 
+/* Hidden "<" and "/>" characters, revealed via color change on hover */
 .code{
     color: transparent;
     margin: 0 1rem;
