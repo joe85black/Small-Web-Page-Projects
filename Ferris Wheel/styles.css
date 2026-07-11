@@ -13,6 +13,7 @@
   animation-timing-function: linear;
 }
 
+/* Each spoke line is rotated around the top-left corner (the wheel's center) using transform-origin */
 .line {
   background-color: black;
   width: 50%;
@@ -39,6 +40,7 @@
   transform: rotate(300deg);
 }
 
+/* Cabins are placed at fixed points around the rim and counter-rotate via the cabins animation so they stay upright while the wheel spins */
 .cabin {
   background-color: red;
   width: 20%;
@@ -74,6 +76,7 @@
   top: 7%;
 }
 
+/* Rotates the whole wheel a full turn */
 @keyframes wheel {
    0% {
      transform: rotate(0deg);
@@ -83,6 +86,7 @@
    }
 }
 
+/* Counter-rotates each cabin (opposite direction of the wheel) so it appears to hang upright, and flashes color mid-cycle */
 @keyframes cabins {
   0% {
     transform: rotate(0deg);
