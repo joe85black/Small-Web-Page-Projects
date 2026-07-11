@@ -15,12 +15,14 @@
             <span>Balance Sheet</span>
           </span>
         </h1>
+        <!-- Sticky column headers showing the years, hidden from screen readers since each table already has its own accessible year headers -->
         <div id="years" aria-hidden="true">
           <span class="year">2019</span>
           <span class="year">2020</span>
           <span class="year">2021</span>
         </div>
         <div class="table-wrap">
+          <!-- Assets table -->
           <table>
             <caption>
               Assets
@@ -60,6 +62,7 @@
               </tr>
             </tbody>
           </table>
+          <!-- Liabilities table -->
           <table>
             <caption>
               Liabilities
@@ -99,6 +102,7 @@
               </tr>
             </tbody>
           </table>
+          <!-- Net Worth summary table (Assets minus Liabilities) -->
           <table>
             <caption>
               Net Worth
