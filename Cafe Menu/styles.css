@@ -22,6 +22,7 @@ h1, h2, p {
   text-align: center;
 }
 
+/* Menu card centered on the page, sitting on top of the background image */
 .menu {
   width: 80%;
   background-color: burlywood;
@@ -52,6 +53,7 @@ h1, h2 {
   font-family: Impact, serif;
 }
 
+/* Flavor/dessert name and price sit inline on the same line, split by width below */
 .item p {
   display: inline-block;
   margin-top: 5px;
