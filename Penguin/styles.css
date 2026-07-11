@@ -1,3 +1,4 @@
+/* Custom properties reused across the penguin's face/body parts for consistent theming */
 :root {
   --penguin-face: white;
   --penguin-picorna: orange;
@@ -44,6 +45,7 @@ body {
   right: -75px;
 }
 
+/* Penguin container: children are all absolutely positioned relative to this box (see ".penguin *" below) */
 .penguin {
   width: 300px;
   height: 300px;
@@ -58,6 +60,7 @@ body {
   position: absolute;
 }
 
+/* Interactive touch: pressing the penguin scales it up briefly */
 .penguin:active {
   transform: scale(1.5);
   cursor: not-allowed;
@@ -189,6 +192,7 @@ body {
   left: 23.5%;
 }
 
+/* Pseudo-element overlay creates the darker belly-shadow shape without an extra HTML element */
 .penguin-body::before {
   content: "";
   position: absolute;
@@ -213,6 +217,7 @@ body {
   z-index: -1;
 }
 
+/* Left arm waves back and forth via keyframe rotation around its top-left pivot */
 .arm.left {
   top: 35%;
   left: 5%;
