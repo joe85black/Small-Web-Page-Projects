@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+/* Sets 1rem = 10px so component font sizes below can use simple rem values */
 html {
   font-size: 62.5%;
 }
@@ -29,6 +30,7 @@ a {
   color: linen;
 }
 
+/* Page-wide grid: fluid side gutters with a fixed-max-width centered content column */
 main {
   display: grid;
   grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
@@ -52,6 +54,7 @@ hr {
   row-gap: 1.5rem;
 }
 
+/* Article body flows into newspaper-style columns instead of one long block */
 .text {
   grid-column: 2 / 3;
   font-size: 1.8rem;
@@ -99,6 +102,7 @@ hr {
   align-items: center;
 }
 
+/* Classic drop-cap effect using ::first-letter */
 .first-paragraph::first-letter {
   font-size: 6rem;
   color: orangered;
@@ -113,6 +117,7 @@ hr {
   font-family: "Raleway", sans-serif;
 }
 
+/* Generated quotation marks around the quote text */
 .quote::before {
   content: '" ';
 }
@@ -141,6 +146,7 @@ hr {
   color: #00beef;
 }
 
+/* Image gallery grid: large image spans both columns, smaller image + quote sit beside each other */
 .image-wrapper {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -153,6 +159,7 @@ hr {
   grid-column: 1 / -1;
 }
 
+/* Responsive breakpoints: collapse multi-column layouts to a single column on narrower screens */
 @media only screen and (max-width: 720px) {
   .image-wrapper {
     grid-template-columns: 1fr;
@@ -185,4 +192,3 @@ hr {
     font-size: 1.6rem;
   } 
 }
-
