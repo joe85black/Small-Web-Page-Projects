@@ -21,6 +21,7 @@ form {
   padding-bottom: 2em;
 }
 
+/* Fieldsets are visually separated by a bottom border, except the last */
 fieldset {
   border: none;
   padding: 2rem 0;
@@ -50,6 +51,7 @@ input, textarea {
   color: #ffffff;
 }
 
+/* Overrides full-width default for radio/checkbox inputs so they sit inline with their label text */
 .inline {
   width: unset;
   margin: 0 0.5em 0 0;
