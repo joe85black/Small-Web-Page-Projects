@@ -19,6 +19,8 @@ body {
   overflow: hidden;
 }
 
+/* Both building rows are flex containers so buildings sit side by side,
+   bottom-aligned, spaced evenly across the viewport */
 .background-buildings, .foreground-buildings {
   width: 100%;
   height: 100%;
@@ -41,6 +43,7 @@ body {
   justify-content: space-evenly;
 }
 
+/* Radial gradient fakes a sun/glow near the top-left of the sky */
 .sky {
   background: radial-gradient(
       closest-corner circle at 15% 15%,
@@ -91,12 +94,14 @@ body {
   height: 50%;
 }
 
+/* Zero-height box with only borders draws a triangular roof */
 .bb2a {
   border-bottom: 5vh solid var(--building-color2);
   border-left: 5vw solid transparent;
   border-right: 5vw solid transparent;
 }
 
+/* Repeating gradient stripes stand in for rows of windows */
 .bb2b {
   width: 100%;
   height: 100%;
@@ -166,6 +171,8 @@ body {
   background-color: var(--building-color4);
 }
   
+/* Two layered gradients: one creates vertical window columns via transparent gaps,
+   the other creates horizontal window rows via color banding */
 .fb1c {
   width: 100%;
   height: 80%;
@@ -238,11 +245,13 @@ body {
   left: 10%;
 }
 
+/* Diagonal border trick draws a slanted rooftop */
 .fb4a {
   border-top: 5vh solid transparent;
   border-left: 8vw solid var(--building-color1);
 }
 
+/* Flex-wrap lets round "porthole" windows wrap into a grid without explicit rows/columns */
 .fb4b {
   width: 100%;
   height: 89%;
@@ -297,6 +306,7 @@ body {
     );
 }
 
+/* Switches to a muted/monochrome night-sky palette on smaller (narrower) viewports */
 @media (max-width: 1000px) {
   :root {
     --building-color1: #000;
