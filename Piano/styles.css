@@ -21,7 +21,7 @@ html {
   width: 949px;
   height: 180px;
   padding-left: 2px;
-  overflow: hidden;
+  overflow: hidden; /* clips floated keys to the container's rounded edges */
 }
 
 .key {
@@ -30,10 +30,12 @@ html {
   width: 41px;
   height: 175px;
   margin: 2px;
-  float: left;
+  float: left; /* lays keys out left-to-right in a row */
   border-radius: 0 0 3px 3px;
 }
 
+/* Black key is drawn as a pseudo-element positioned over the gap
+   between two adjacent white keys, rather than as its own element */
 .key.black--key::after {
   background-color: #1d1e22;
   content: "";
@@ -50,6 +52,7 @@ html {
   top: 23px;
 }
 
+/* Shrink the piano to fit smaller screens */
 @media (max-width: 768px) {
   #piano {
     width: 358px;
