@@ -17,6 +17,7 @@ body {
   border-bottom: 4px solid #fdb347;
 }
 
+/* Flexbox gallery: images wrap onto new rows and are centered with consistent gaps */
 .gallery {
   display: flex;
   flex-direction: row;
@@ -37,6 +38,7 @@ body {
   border-radius: 10px;
 }
 
+/* Invisible spacer matching image width so the last row doesn't stretch unevenly when centered */
 .gallery::after {
   content: "";
   width: 350px;
