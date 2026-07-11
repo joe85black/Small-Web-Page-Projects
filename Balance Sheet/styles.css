@@ -1,3 +1,4 @@
+/* Visually hides content while keeping it available to screen readers */
 span[class~="sr-only"] {
   border: 0 !important;
   clip: rect(1px, 1px, 1px, 1px) !important;
@@ -46,6 +47,7 @@ section {
   border: 2px solid #d0d0d5;
 }
 
+/* Sticky year header stays pinned to the top of the viewport while the tables scroll beneath it */
 #years {
   display: flex;
   justify-content: flex-end;
@@ -76,6 +78,7 @@ table {
   margin-top: 3rem;
 }
 
+/* Caption is positioned above the table using absolute positioning relative to the table */
 table caption {
   color: #356eaf;
   font-size: 1.3em;
@@ -122,6 +125,7 @@ td.current {
   font-style: italic;
 }
 
+/* Two-tone background gradient simulates a divider line under the row label */
 tr.data {
   background-image: linear-gradient(to bottom, #dfdfe2 1.845rem, white 1.845rem);
 }
@@ -145,4 +149,3 @@ tr.data td {
   padding: 0.3rem 0.25rem 0;
   text-align: right;
 }
-
