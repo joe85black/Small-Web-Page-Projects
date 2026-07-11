@@ -23,6 +23,7 @@ header h1 {
   letter-spacing: 0.15px
 }
 
+/* Each label row uses flex to push the value to the right edge, opposite the description on the left */
 p {
   margin: 0;
   display: flex;
@@ -42,6 +43,7 @@ p {
   height: 10px;
 }
 
+/* Thick black bars separate the label's major sections (calories, daily value, vitamins) */
 .large, .medium {
   background-color: black;
   border: 0;
@@ -90,6 +92,7 @@ p {
   margin-left: 2em;
 }
 
+/* Auto-adds a thin divider under every row unless it's explicitly marked .no-divider */
 .daily-value p:not(.no-divider) {
   border-bottom: 1px solid #888989;
 }
