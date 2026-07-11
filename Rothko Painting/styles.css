@@ -3,7 +3,7 @@
   height: 600px;
   background-color: #4d0f00;
   overflow: hidden;
-  filter: blur(2px);
+  filter: blur(2px); /* softens block edges to mimic Rothko's painterly, feathered look */
 }
 
 .frame {
@@ -13,6 +13,8 @@
   margin: 20px auto;
 }
 
+/* Each color block uses a subtle rotation and matching box-shadow (same color, blurred)
+   to fake a soft, glowing paint-bleed edge instead of a hard rectangle */
 .one {
   width: 425px;
   height: 150px;
