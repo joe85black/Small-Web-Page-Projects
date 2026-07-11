@@ -50,6 +50,7 @@ code{
   border-radius: 5px;
 }
 
+/* Sidebar nav: fixed width, scrolls independently if its content overflows */
 #navbar{
   flex: left;
   
