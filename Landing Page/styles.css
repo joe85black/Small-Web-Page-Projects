@@ -8,6 +8,7 @@ body{
   background-color: rgb(175, 175, 127);
 }
 
+/* Header stays pinned to the top of the viewport while scrolling */
 #header{
   position: sticky;
   top: 0;
@@ -41,6 +42,7 @@ body{
 }
 
 
+/* Nav links spread evenly across the full width of the header */
 #nav-bar{
   display: flex;
   width: 100%;
@@ -107,6 +109,7 @@ body{
 }
 
 
+/* Services grid: 3 columns, flowed column-first so items fill top-to-bottom then left-to-right */
 .ideas{
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
@@ -162,6 +165,7 @@ thead {
   background-color: rgb(217, 228, 194);
 }
 
+/* On wide screens, center the "who we are" image and shrink it so it doesn't dominate the layout */
 @media (min-width: 1250px){
 .img-wrapper{
 display: flex;
