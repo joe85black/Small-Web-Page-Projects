@@ -6,6 +6,7 @@ body {
   background-color: #c9d2fc;
 }
 
+/* Head is centered in the viewport using absolute positioning with all offsets at 0 plus auto margin */
 .cat-head {
   position: absolute;
   right: 0;
@@ -20,6 +21,7 @@ body {
   border-radius: 46%;
 }
 
+/* Ears are triangles created with transparent side borders and a rotated bottom border */
 .cat-left-ear {
   position: absolute;
   top: -26px;
@@ -72,6 +74,7 @@ body {
   border-bottom: 40px solid #3b3b4f;
 }
 
+/* Eyes are rotated ovals for an almond-eye look */
 .cat-left-eye {
   position: absolute;
   top: 54px;
@@ -116,6 +119,7 @@ body {
   border-radius: 60%;
 }
 
+/* Nose is another border-triangle, flipped upside down with rotate(180deg) */
 .cat-nose {
   position: absolute;
   top: 108px;
@@ -129,6 +133,7 @@ body {
   border-bottom: 20px solid #442c2c;
 }
 
+/* Mouth uses only the top border of a rounded box, with left/right halves rotated to form a "W" curl */
 .cat-mouth div {
   width: 30px;
   height: 50px;
@@ -151,6 +156,7 @@ body {
   transform: rotate(165deg);
 }
 
+/* Whiskers are thin rotated bars positioned in a fan pattern on each side */
 .cat-whiskers-left div {
   width: 40px;
   height: 1px;
