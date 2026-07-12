@@ -26,4 +26,3 @@ No build tools or dependencies — open any project's `index.html` directly in a
 | [Skyline](./Skyline) | ![preview](./Skyline/City%20Skyline.png) | CSS-only city skyline illustration |
 | [Survey Form](./Survey%20Form) | ![preview](./Survey%20Form/Survey%20Form.png) | Survey form with various input types (HTML only, no separate stylesheet) |
 | [Technical Documentation Page](./Technical%20Documentation%20Page) | ![preview](./Technical%20Documentation%20Page/Technical%20Document.png) | Sidebar-navigation documentation page layout |
-| [Tribute Page](./Tribute%20Page) | ![preview](./Tribute%20Page/Tribute%20Page.png) | Single-page tribute/biography layout |
